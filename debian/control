@@ -1,0 +1,19 @@
+Source: vala-language-server
+Section: unknown
+Priority: optional
+Maintainer: Alan Knowles <alan@roojs.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://github.com/vala-lang/vala-language-server
+
+
+Package: vala-language-server
+Architecture: any
+Multi-Arch: foreign
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: This is NOT an offical build, it's only packaged as
+  It's needed for roobuilder, and I could not find any premade source.
